@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-color: #f6f8fc;
+  margin-top:100px
+}
+
+.App {
+  text-align: center;
+}
+
+.todo-heading{
+  margin-bottom:30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputError{
+  color:red;
+  font-size:15px;
+  display:none;
+}
+
+
+#todoInput{
+  height: 42px;
+  width: 460px;
+  border-radius: 5px;
+  border: 0px;
+  outline:none;
+  padding-left:10px;
+  box-shadow: 2px 2px 5px gray;
+  margin-right:10px
+}
+
+
+#todoInput::-webkit-input-placeholder{
+  font-size:11px;
+}
+
+.btn-warning{
+  height: 37px;
+  width: 85px;
+  vertical-align: bottom;
+  color:white;
+  box-shadow: 2px 2px 5px gray;
+  outline:none;
+}
+
+.mb50{
+  margin-bottom:50px;
+}
+
+ul{
+  list-style:none;
+  font-size:14px;
+}
+
+ul>li{
+  margin:10px 444px 10px 414px;
+  text-align:start;
+  border-bottom:1px solid #2A4C66;
+  padding-bottom:15px;
+  color:#2A4C66;
+}
+
+.icon{
+  height:28px;
+  width:28px;
+  padding:5px;
+  cursor:pointer;
+}
+
+.bi-check:hover{
+  color:green;
+}
+.bi-trash:hover{
+  color:red;
+}
+
+.icons{
+  float:right;
+}
