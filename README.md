@@ -1,2 +1,2 @@
 # todoapp
-This is a basic todo application with react and redux.
+This is a basic todo application with react.
