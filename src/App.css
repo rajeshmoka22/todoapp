@@ -115,3 +115,31 @@ ul>li{
 .icons{
   float:right;
 }
+
+.submitButton {
+  height: 43px;
+  margin:8px;
+}
+
+.todoInput{
+  margin: 10px 5px;
+}
+
+.todoItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 12px;
+  align-items:center;
+  text-align:justify;
+}
+
+.todoText{
+  width:78%;
+}
+.todoIcons{
+  width:22%;
+}
+
+.listContainer{
+  margin: auto;
+}

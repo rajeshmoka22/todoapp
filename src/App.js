@@ -4,19 +4,7 @@ import Todo from './Todo.js';
 
 class App extends React.Component {
   state={
-      todoItems:[{
-        deleted:false,
-        id:0,
-        todo:"Complete redux",
-        completed:false
-      },
-      {
-        deleted:false,
-        id:1,
-        todo:"Complete react",
-        completed:false
-      }
-    ]
+      todoItems:[]
   }
 
   completeTodo= (id)=>{
