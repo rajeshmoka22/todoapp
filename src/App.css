@@ -134,13 +134,18 @@ ul>li{
   padding: 4px 12px;
   align-items:center;
   text-align:justify;
+  border-bottom: 1px solid gray;
 }
 
 .todoText{
-  width:78%;
+  width:70%;
 }
 .todoIcons{
-  width:22%;
+  width:fit-content;
+}
+
+.todoButton{
+  margin:0.3em;
 }
 
 .listContainer{
